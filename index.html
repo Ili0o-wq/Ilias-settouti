@@ -297,33 +297,33 @@
   <button class="filter-btn" data-filter="perso">Personnel</button>
 </div>
 
-<!-- GRID -->
+
 <div class="grid">
 
-  <!-- SAE -->
+  
   <div class="card" data-cat="sae" data-desc="Deuxième version finale de l'affiche concernant la Corsica Games Week dans le cadre d'une SAE">
-    <img src="affiche.jpg">
+    <img src="affiche.jpg" alt="affiche cgw">
     <div class="card-title">Affiche CGW V2</div>
   </div>
 
   <div class="card" data-cat="sae" data-desc="Film produit dans le cadre d'une SAE">
-    <img src="film.jpg">
+    <img src="film.jpg" alt="film">
     <div class="card-title">Production cinématographique</div>
   </div>
 
   <div class="card" data-cat="sae" data-desc="Projet SAE sur la création d'une affiche concernant la Corsica Games Week.">
-    <img src="cgw.png">
+    <img src="cgw.png" alt="cgw">
     <div class="card-title">Affiche CGW V1</div>
   </div>
 
-  <!-- DESIGN -->
+  
 
   <div class="card" data-cat="design" data-desc="Affiche d'une ile contenant une multitude de details, produite pour l'exertion de l'outil Photoshop">
-    <img src="Settouti_Ilias_4.webp">
+    <img src="Settouti_Ilias_4.webp" alt="projet">
     <div class="card-title">Affiche design photoshop</div>
   </div>
 
-  <!-- PERSO -->
+  
   <div class="card" data-cat="perso" data-desc="Création personelle en matière de création 3D">
    <model-viewer
   src="pancakes.glb"
@@ -362,13 +362,13 @@
 
 </div>
 
-<!-- MODAL -->
+
 <div class="overlay" id="overlay">
   <div class="modal">
     <span class="close" id="close">&times;</span>
-    <img id="modalImg">
+    <img id="modalImg" src="img/placeholder.jpg" alt="modal">
     <div class="modal-content">
-      <h2 id="modalTitle"></h2>
+      <h2 id="modalTitle">Detais du projets</h2>
       <p id="modalDesc"></p>
     </div>
   </div>
@@ -486,7 +486,7 @@ buttons.forEach(btn => {
   });
 });
 
-/* MODAL */
+
 
 const overlay = document.getElementById("overlay");
 const modalImg = document.getElementById("modalImg");
